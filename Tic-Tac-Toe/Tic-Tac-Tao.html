@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h2>Tic-Tac-Toe</h2>
+        <ul class="nav-links">
+            <li class="dropdown">
+                <a href="#">More ▾</a>
+                <div class="dropdown-content">
+                    <a href="#" id="showInstructions">📜 Instructions</a>
+                    <a href="#" id="showDeveloper">👨‍💻 Developer Profile</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="home">
+        <h1> 🎮 Play Tic-Tac-Toe</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>  
+                <button class="box"></button>
+                <button class="box"></button> 
+                <button class="box"></button> 
+                <button class="box"></button> 
+                <button class="box"></button>
+                <button class="box"></button> 
+                <button class="box"></button> 
+                <button class="box"></button>  
+            </div>
+        </div>
+        <button class="reset"><i class="fas fa-redo"></i> Reset</button>             
+    </main>
+
+    <!-- Hidden Instructions Section -->
+    <div id="instructionsContent" class="content-div" style="display:none;">
+        <h2>🎮 How to Play</h2>
+        <ul>
+            <li>👤 Two players take turns to place X or O in an empty cell.</li>
+            <li>✔ The first player to get three of their marks in a row (vertically, horizontally, or diagonally) wins.</li>
+            <li>🔄 If the board fills up without a winner, the game is a draw.</li>
+            <li>🔘 Click the <b>Reset</b> button to start a new round.</li>
+        </ul>
+    </div>
+
+    <!-- Hidden Developer Profile Section -->
+    <div id="developerContent" class="content-div" style="display:none;">
+        <h2>👨‍💻 Developer Info</h2>
+        <p><strong>Name:</strong> Manish Nishad</p>
+        <p><strong>Role:</strong> Software Developer</p>       
+        <p><strong>Time of Development:</strong> January 2025</p>
+    </div>
+
+    <!--<div class="footer">
+        <p>© 2025 Tic-Tac-Toe. All Rights Reserved.</p>
+    </div>-->
+
+    <script src="Opertion.js">
+       
+    </script>
+
+    <script src="Opertion.js"></script>
+</body>
+</html>
